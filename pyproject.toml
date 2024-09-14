@@ -1,0 +1,16 @@
+[project]
+name = "fba2mat"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=2.1.1",
+    "pandas>=2.2.2",
+    "jupyterlab>=4.2.5",
+    "click>=8.1.7",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
